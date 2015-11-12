@@ -1,0 +1,34 @@
+{
+  "name": "reactconcepts",
+  "version": "1.0.0",
+  "description": "app to implement basic react concepts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/slonak79/reactconcepts.git"
+  },
+  "keywords": [
+    "react",
+    "learn",
+    "concepts"
+  ],
+  "author": "Alcides Sorto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slonak79/reactconcepts/issues"
+  },
+  "homepage": "https://github.com/slonak79/reactconcepts#readme",
+  "dependencies": {
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "webpack": "^1.12.4",
+    "webpack-core": "^0.6.8"
+  }
+}
