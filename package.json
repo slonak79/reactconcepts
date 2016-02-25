@@ -1,37 +1,42 @@
 {
   "name": "reactconcepts",
-  "version": "1.0.0",
-  "description": "app to implement basic react concepts",
+  "version": "0.1.0",
+  "description": "created to learn react.js by doing",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/slonak79/reactconcepts.git"
+    "url": "git+https://github.com/slonak79/reactconcepts.git"
   },
   "keywords": [
-    "react",
-    "learn",
-    "concepts"
+    "react.js",
+    "node.js"
   ],
   "author": "Alcides Sorto",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/slonak79/reactconcepts/issues"
   },
   "homepage": "https://github.com/slonak79/reactconcepts#readme",
-  "dependencies": {
-    "react": "^0.14.2",
-    "react-dom": "^0.14.2"
-  },
   "devDependencies": {
-    "babel-core": "^6.0.12",
-    "babel-loader": "^6.0.1",
-    "babel-preset-es2015": "^6.0.12",
-    "babel-preset-react": "^6.0.15",
-    "babel-runtime": "^6.1.4",
-    "webpack": "^1.12.4",
+    "babel-preset-react": "^6.1.18",
+    "babelify": "^7.2.0",
+    "browserify": "^12.0.1",
+    "install": "^0.3.0",
+    "jsx-loader": "^0.13.2",
+    "npm": "^3.4.0",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2",
+    "webpack": "^1.12.9",
     "webpack-core": "^0.6.8"
+  },
+  "dependencies": {
+    "moment": "^2.10.6",
+    "babel-core": "^6.1.21",
+    "babel-loader": "^6.1.0",
+    "css-loader": "^0.23.0",
+    "style-loader": "^0.13.0"
   }
 }
